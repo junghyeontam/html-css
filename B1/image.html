@@ -7,6 +7,14 @@ title: tên của ảnh(tooltip)
 height : chiều dài (px)
 width : chiều rộng (px)
 
+loading = "lazy": lười , >
+
+
+<figure> 
+    <img> 
+    <figcaption> </>   mục đích để cation cho ảnh 
+
+</figure>
 Quy tắc sử dụng ảnh:
 1. Hình ảnh đúng định dạng
     jpeg: khi ảnh có nhiều màu sắc bên trong
@@ -20,6 +28,8 @@ sử dụng các điểm ảnh như hình ảnh raster(bitmap). Điều này cho
 mất chất lượng, vì chúng không phụ thuộc vào độ phân giải
 
 ảnh gif: ảnh động , tạo ra sự chuyển động
+
+
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -32,11 +42,16 @@ mất chất lượng, vì chúng không phụ thuộc vào độ phân giải
     <ul>
         <li>
             <h1>Ảnh 1</h1>
+            <figure>
+                
             <img src = "img/a1.jpg" alt = "ẢNH 1" title = "ảnh thời gian" height = "250px" width = "150px"/>
-
+            <figcaption>anhr cuar tooi</figcaption>
+            
+                </figure>
         </li>
             <h1>Ảnh 2</h1>
-            <img src = "img/a2.jpg" alt = "ẢNH 2" title = "ảnh phần tử" width = "250px" height = "250px"/>
+            <li>
+            <img src = "img/a2.jpg" alt = "ẢNH 2" title = "ảnh phần tử" height = "250px" width = "350px"/> </li>
     </ul>
 </body>
 </html>
